@@ -35,4 +35,9 @@ return [
         ],
     ],
 
+    // config/services.php
+    'ai' => [
+        'url' => env('AI_SERVICE_URL', 'http://localhost:3000'),
+    ],
+
 ];
